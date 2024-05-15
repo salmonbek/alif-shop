@@ -41,15 +41,6 @@ function Navbar() {
           <Link to={"/"} className="display__none__logo">
             <img src={logo} alt="logo" />
           </Link>
-          <select>
-            <option value="uzb">Uzb</option>
-            <option value="rus">Rus</option>
-          </select>
-        </div>
-        <div className="header__right">
-          <NavLink path={"/"}>Namoz vaqti</NavLink>
-          <NavLink path={"/"}>alif shopda soting!</NavLink>
-          <NavLink path={"/"}>Bizga yozing</NavLink>
         </div>
       </div>
       <div className="header__bottom">
